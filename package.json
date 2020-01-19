@@ -1,0 +1,23 @@
+{
+  "name": "lennartbot",
+  "version": "1.0.0",
+  "description": "Discord bot written in NodeJS and Eris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stinjul/lennartbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stinjul/lennartbot/issues"
+  },
+  "homepage": "https://github.com/Stinjul/lennartbot#readme",
+  "dependencies": {
+    "eris": "^0.11.2"
+  }
+}
