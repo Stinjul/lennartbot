@@ -1,5 +1,5 @@
 # Project
-config.json
+config/local.json
 
 # NodeJS
 node_modules/

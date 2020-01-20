@@ -1,7 +1,8 @@
 console.log("Starting bot...");
 
 const Eris = require("eris");
-const config = require("./config.json");
+const config = require("config");
+//const config = require("./config.json");
 
 // Helpers
 
@@ -17,8 +18,8 @@ function getIdFromMention(mention) {
 
 // Bot functions
 
-var bot = new Eris.CommandClient(config.token, {}, {
-    prefix: config.prefix
+var bot = new Eris.CommandClient(config.get('token'), {}, {
+    prefix: config.get('prefix')
 });
 
 bot.on("ready", () => {
