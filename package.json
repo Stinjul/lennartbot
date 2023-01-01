@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Stinjul/lennartbot#readme",
   "dependencies": {
-    "config": "^3.2.5",
+    "config": "^3.3.8",
     "eris": "^0.11.2"
   }
 }
